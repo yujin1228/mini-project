@@ -1,0 +1,87 @@
+.content {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.search-section {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.search-box {
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(102, 103, 104);
+    margin-right: 5px;
+}
+
+.search-btn {
+    width: 60px;
+    height: 30px;
+    color: var(--white);
+    background-color: rgb(60, 128, 222);
+}
+
+.search-btn:hover {
+    background-color: rgb(45, 100, 176);
+}
+
+.book-seach-list {
+    padding-top: 20px;
+}
+
+.book-card {
+    display: flex;
+    text-align: left;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.book-img { 
+    /* width: 100px; */
+    border: 1px solid rgb(202, 200, 200);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    font-weight: 700;
+}
+
+.book-title {
+    font-size: large;
+    margin-bottom: 3px;
+}
+
+.book-author {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.book-content {
+    font-size: 13px;
+    font-weight: 400;
+    height: 90px;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+.book-price {
+    margin-top: 10px;
+    color: rgb(31, 140, 230);
+}
+

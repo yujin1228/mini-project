@@ -1,0 +1,66 @@
+/*---------- Import Fonts ----------*/
+
+
+/*---------- Variable CSS ----------*/
+:root {
+    /*---------- Color ----------*/
+    --first-color: ;
+    --body-color: ;
+    --white: #ffffff;
+    --black: #000000;
+
+
+    /*---------- Font and typography ----------*/
+    --body-font: ;
+}
+
+/*---------- reset ----------*/
+.a11y-hidden {
+    display: block;
+    overflow: hidden;
+    clip: rect(0 0 0 0); /* IE 6,7 */
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+}
+
+* {
+    margin:0;
+    padding:0;
+    font:inherit;
+    color:inherit;
+}
+
+*, :after, :before {
+    box-sizing:border-box;
+}
+
+ul,ol {list-style: none;}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+input,input:focus,textarea,textarea:focus {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+/*---------- Media ----------*/
